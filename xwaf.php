@@ -1,13 +1,13 @@
 <?php
 /**
- *  xWAF 2.1 - Free Web Application Firewall, Open-Source.
+ *  pWAF 2.1 - Free Web Application Firewall, Open-Source.
  *
  *  @author Alemalakra
  *  @modied Wrath
  *  @version 2.1
  */
  
-class xWAF {
+class pWAF {
 	function __construct() {
 		$this->IPHeader = "REMOTE_ADDR";
 		return true;
